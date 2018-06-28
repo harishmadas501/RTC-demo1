@@ -86,22 +86,7 @@ var Translations = {
      *
      * If the promo area is not required then remove the content from the variable - "PromoSettings": {};
      */
-    "PromoSettings": {
-        "promo1": {
-            "trackingName": "promo1",
-            "url": "http://example.com/",
-            "label": "Promo (Top)",
-            "desktopImage": "./images/promo_portrait.png",
-            "mobileImage": "./images/promo_landscape.png"
-        },
-        "promo2": {
-            "trackingName": "promo2",
-            "url": "http://example.com/",
-            "label": "Promo (Bottom)",
-            "desktopImage": "./images/promo_portrait.png",
-            "mobileImage": "./images/promo_landscape.png"
-        }
-    },
+
 
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
