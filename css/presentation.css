@@ -59,8 +59,8 @@
 
 .header__logo 
 {
-    height: 130px ;
-    width: 150%;
+    height: 85px ;
+    width: 100%;
     margin: 10px;
     background: url("../images/logo.png") no-repeat;
     background-position: center;
