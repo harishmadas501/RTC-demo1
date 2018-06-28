@@ -39,7 +39,7 @@ sub {
 }
 
 .header__logo {
-    max-width: 100%;
+    max-width: 200%;
 }
 
 .header__text {
