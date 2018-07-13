@@ -47,27 +47,27 @@ var Translations = {
      */
     "CtaButtonSettings": {
         "button1": {
-            "card": "d1b4d742",
+            "card": "0598b6a6",
             "label": "Contact",
             "icon": "contact"
         },
         "button2": {
-            "card": "d1b4d742",
+            "url": "http://www.realtimecontent.com/",
             "label": "Website",
             "icon": "website"
         },
         "button3": {
-            "card": "d1b4d742",
-            "label": "Email",
-            "icon": "email"
+            "card": "77467215",
+            "label": "Feedback",
+            "icon": "Feedback"
         },
         "button4": {
-            "card": "d1b4d742",
+            "card": "3eac4551",
             "label": "Save",
             "icon": "save"
         },
         "button5": {
-            "url": "http://example.com/",
+            "card": "c2040229",
             "label": "Share",
             "icon": "share"
         }
@@ -86,7 +86,15 @@ var Translations = {
      *
      * If the promo area is not required then remove the content from the variable - "PromoSettings": {};
      */
-
+    "PromoSettings": {
+        "promo1": {
+            "trackingName": "promo1",
+            "url": "http://example.com/",
+            "label": "Promo (Top)",
+            "desktopImage": "./images/Promo.png",
+            "mobileImage": "./images/Promo.png"
+        }
+    },
 
     /**
      * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
@@ -99,33 +107,88 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Introduction",
+            "label": "introduction",
             "states": [
                 {
                     "cardId": "START",
-                    "width": 20
+                    "width": 10
                 }
             ]
         },
         {
-            "label": "Your Account",
+            "label": "helping you",
             "states": [
                 {
-                    "cardId": "77a834f0",
-                    "width": 20
+                    "cardId": "26f3539e",
+                    "width": 10
+                }    
+            ]
+        },
+         {
+            "label": "personilization",
+            "states": [
+                {
+                    "cardId": "129c0e3c",
+                    "width": 10
                 },
                 {
-                    "cardId": "c23a68c9",
-                    "width": 20
+                    "cardId": "fc8d1a3a"
+                    ,
+                    "width": 10
+                }
+            ]
+        },
+        
+        {
+            "label": "service tour",
+            "states": [
+                {
+                    "cardId": "8af5f097",
+                    "width": 10
+                },
+                 {
+                    "cardId": "04ae54c4",
+                    "width": 10
                 }
             ]
         },
         {
-            "label": "Thank You",
+            "label": "optional information",
             "states": [
                 {
-                    "cardId": "7b0123a5",
-                    "width": 40
+                    "cardId": "f4824bf8",
+                    "width": 7
+                },
+                {
+                    "cardId": "784e106c",
+                    "width": 8
+                }
+               
+            ]
+        },
+        {
+            "label": "questions",
+            "states": [
+                {
+                    "cardId": "ddc44336",
+                    "width": 6
+                },
+                {
+                    "cardId": "ccec9820",
+                    "width": 6
+                },
+                {
+                    "cardId": "d0bc6b55",
+                    "width": 5
+                }
+            ]
+        },
+        {
+            "label": "thanks",
+            "states": [
+                {
+                    "cardId": "End",
+                    "width": 8
                 }
             ]
         }
